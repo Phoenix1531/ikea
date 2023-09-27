@@ -1,55 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:wght@300;400&family=Phudu:wght@300;400&family=Poppins:wght@300;400&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&family=Titillium+Web:ital,wght@1,200;1,300&display=swap');
 
-body{
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
     font-family: 'Roboto', sans-serif;
     color: grey;
     background-color: #F5F5F5;
+    overflow-x: hidden;
 }
 
-.no-border-logo{
+.no-border-logo {
     border: none;
+    margin-left: 3px;
+    margin-bottom: 10px;
 }
 
-.total{
+.total {
     display: flex;
 }
 
-.menu{
+.menu {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
+    position: sticky;
+    align-items: center;
+    width: 4vw;
+    background-color: transparent;
 }
 
-.right{
+.menu-bar{
+    position: fixed;
+}
+#world:hover{
+    border: none;
+    margin-top: 10px;
+}
+.right {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.main{
+.main {
     display: flex;
     justify-content: space-between;
     width: auto;
 }
 
-.fifth{
+.fifth {
     margin-right: 100px;
 }
 
-.bottom{
+.bottom {
     display: flex;
+    margin-bottom: 30px;
 }
 
-#bottom-1st{
+#bottom-1st {
     margin-right: 900px;
 }
 
-.bottom-text{
+.bottom-text {
     font-size: 13px;
 }
 
-.second-btn{
+.second-btn {
     display: flex;
     align-items: center;
     background-color: #F5F5F5;
@@ -59,23 +79,32 @@ body{
     margin-left: 70px;
 }
 
-.icons{
+.icons {
     display: flex;
     justify-content: space-around;
 }
 
-.lined{
+.lined {
     text-decoration: underline;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
-.top{
+
+.top {
     color: black;
 }
 
-button{
+.top:hover {
+    text-decoration: none;
+}
+
+.big-para:hover {
+    text-decoration: none;
+}
+
+button {
     height: 40px;
     width: 100px;
     color: white;
@@ -83,38 +112,197 @@ button{
     border-radius: 25px;
 }
 
-.first{
+.first {
     width: 300px;
 }
-.first-1{
+
+.first-1 {
     margin-bottom: 50px;
 }
 
-svg{
-    border: solid 1px black;
+svg {
+    border: solid 1px grey;
     border-radius: 50%;
     padding: 7px;
     color: black;
 }
 
-hr{
+hr {
     color: black;
     width: 100%;
     height: 1px;
 }
 
-li:hover{
+li:hover {
     text-decoration: underline;
 }
 
-p:hover{
+p:hover {
     text-decoration: underline;
 }
 
-svg:hover{
-    border: solid 1px grey ;
+svg:hover {
+    border: solid 1px black;
 }
 
-#black-img:hover{
+#black-img:hover {
     background-color: grey;
+}
+
+#menulogo:hover {
+    background-color: grey;
+}
+
+.website{
+    display: flex;
+    flex-direction: column;
+}
+
+.black-head{
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+#black-text{
+    color: white;
+    font-size: small;
+}
+#wallet{
+    margin-left: 650px;
+}
+
+.ikea-logo{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.parent{
+    display: flex;
+}
+.searchbar{
+    display: flex;
+    background-color: #F5F5F5;
+    height: 50px;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+.searchbar:hover{
+    background-color: rgb(207, 204, 204);
+}
+.search-logos{
+    border: none;
+}
+.search-logos:hover{
+    border: none;
+}
+.search-text:hover{
+    text-decoration: none;
+}
+#cam-logo{
+    margin-left: 600px;
+}
+.small-right:hover{
+    background-color: #F5F5F5;
+}
+.small-right{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 90px;
+    border-radius: 25px;
+    height: 40px;
+    width: 190px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.b-text{
+    color: black;
+}
+.b-text:hover{
+    text-decoration: none;
+}
+.heart{
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.child{
+    display: flex;
+}
+
+.bottom-1st-text{
+    margin-top: 15px;
+    font-weight: bold;
+    margin-right: 30px;
+    color: black;
+    font-size: 14px;
+}
+.child>p:hover{
+    text-decoration: underline;
+}
+.bottom-no-border{
+    border: none;
+}
+.bottom-no-border:hover{
+    border: none;
+}
+.last-text{
+    margin-top: 7px;
+    color: black;
+}
+#truck{
+    margin-left: 600px;
+}
+#store{
+    margin-left: 30px;
+}
+.last-text:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.body-text{
+    color: black;
+    font-size: 40px;
+}
+#swedish{
+    font-size: 13px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+.pic1{
+    width: 660px;
+    height: 774px;
+    margin-right: 20px;
+}
+.photos{
+    display: flex;
+}
+.photos-1{
+    display: flex;
+    flex-direction: column;
+}
+.photos-2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.pic2{
+    height: 322px;
+    width: 319px;
+}
+.pic3{
+    height: 433px;
+    width: 320px;
+}
+.pic4{
+    width: 322px;
+    height: 437px;
+}
+.pic5{
+    width: 323px;
+    height: 321px;
 }
